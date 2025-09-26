@@ -3,7 +3,6 @@ from tkinter import messagebox
 from tkinter import scrolledtext
 from bs4 import BeautifulSoup
 import requests
-from urllib.parse import urlparse
 
 # Main
 def combined_functions(event=None):
@@ -128,4 +127,5 @@ btn_submit.grid(row=5, column=0, columnspan=2, ipady=3, ipadx=3, pady=5)
 
 
 window.mainloop()
+
 
